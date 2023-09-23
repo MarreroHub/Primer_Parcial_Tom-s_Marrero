@@ -13,7 +13,7 @@ public class Player_Move : MonoBehaviour
     {
         Walk();
         LeftRight();
-
+        viewRotation();
     }
 
     void Walk()
@@ -35,6 +35,14 @@ public class Player_Move : MonoBehaviour
         PlayerCapsule.Translate(v, Space.Self);
     }
 
+
+    void viewRotation()
+    {
+        Vector3 vec_rotate = Vector3.zero;                                                       
+        vec_rotate.y = Input.GetAxis("Rotation");                                                 
+        Vector3 v = new Vector3(0, vec_rotate.y, 0) * Time.deltaTime * 5.0f * rotationSpeed;  
+        PlayerCapsule.Rotate(v, Space.Self);
+    }
 
 
 }
