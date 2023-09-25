@@ -35,7 +35,7 @@ public class TimerScript : MonoBehaviour
         {
             GameOverMenu.SetActive(false);
             GameIsOver = false;
-
+            Time.timeScale = 1f;
         }
 
         if (PauseMenu.GameIsPaused == true)

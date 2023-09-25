@@ -9,6 +9,7 @@ public class WinMenu : MonoBehaviour
     public void PlayAgain()
     {
         SceneManager.LoadScene(2);
+        Time.timeScale = 1f;
     }
 
     public void ReturnMenu()
