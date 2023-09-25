@@ -23,8 +23,6 @@ public class PauseMenu : MonoBehaviour
         }
 
     }
-
-
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
@@ -32,8 +30,6 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = false;
 
     }
-
-
 
     void Pause()
     {
@@ -46,7 +42,6 @@ public class PauseMenu : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-
 
     public void ExitGame()
     {

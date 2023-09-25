@@ -3,27 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class WinMenu : MonoBehaviour
 {
-    public void PlayGame()
+
+    public void PlayAgain()
     {
         SceneManager.LoadScene(2);
-        Time.timeScale = 1f;
-        PauseMenu.GameIsPaused = false;
     }
 
-    public void DemostrationScene()
-
+    public void ReturnMenu()
     {
-        SceneManager.LoadScene(1);
-        Time.timeScale = 1f;
-        PauseMenu.GameIsPaused = false;
+        SceneManager.LoadScene(0);
     }
 
     public void QuitGame()
     {
         Debug.Log("Exit Aplication");
         Application.Quit();
-
     }
 }
