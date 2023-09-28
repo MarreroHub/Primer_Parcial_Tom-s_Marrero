@@ -251,7 +251,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 116
   m_CollisionDetection: 1
 --- !u!65 &164766993
 BoxCollider:
@@ -1554,6 +1554,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1152354105411914, guid: cdbec52167efb6a48b63cebb3284c246, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1161605864}
+    - targetCorrespondingSourceObject: {fileID: 1152354105411914, guid: cdbec52167efb6a48b63cebb3284c246, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1161605867}
   m_SourcePrefab: {fileID: 100100000, guid: cdbec52167efb6a48b63cebb3284c246, type: 3}
 --- !u!1 &1161605863 stripped
 GameObject:
@@ -1577,6 +1580,102 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4657497382128574, guid: cdbec52167efb6a48b63cebb3284c246, type: 3}
   m_PrefabInstance: {fileID: 1161605862}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1161605867
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161605863}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5c224246aabdf2147b24b920563d9f85, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1238992648
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,6 +1687,7 @@ GameObject:
   - component: {fileID: 1238992651}
   - component: {fileID: 1238992650}
   - component: {fileID: 1238992649}
+  - component: {fileID: 1238992652}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1669,6 +1769,102 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 33.083, y: 180, z: 0}
+--- !u!82 &1238992652
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238992648}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8b1779c444f3cf14b8adde3cd6ec48e8, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.59
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1288830323
 GameObject:
   m_ObjectHideFlags: 0
@@ -17487,8 +17683,8 @@ MonoBehaviour:
   - "De seguro lo sepas pero deja que te ponga al corriente, tu tarea es ingresar
     a la nave que se encuentra por all\xED apretando la tecla \"E\" cuando la tengas
     en frente."
-  - "No te preocupes por si olvidaste donde est\xE1n tus ojos, una Bola NET, esa
-    cosa violeta que vuela frente a tu cara, te dir\xE1 en qu\xE9 direcci\xF3n est\xE1s
+  - "No te preocupes por si has olvidado donde est\xE1n tus ojos, una Bola NET, esa
+    cosa rosa que vuela frente a tu cara, te dir\xE1 en qu\xE9 direcci\xF3n est\xE1s
     yendo en todo momento."
   - "Y por si te has olvidado como mover tus piernas, recuerda que es tan simple
     como aprenderse los comandos de WSAD, ya sabes, delante, atr\xE1s, izquierda
@@ -17497,10 +17693,10 @@ MonoBehaviour:
   - "Tu misi\xF3n es simple, reprogramamos la nave con los comandos que le pondr\xEDa
     un chico universitario, si, todo un desaf\xEDo."
   - "Una vez que est\xE9s volando, habr\xE1 una Bola NET del mismo color que la tuya
-    pero mucha m\xE1s grande que tendr\xE1s que golpear, tranquilo, se encuentra
+    pero mucho m\xE1s grande que tendr\xE1s que golpear, tranquilo, se encuentra
     delante tuyo pasando la villa de los trabajadores, justo por encima."
   - "Una vez hayas golpeado la bola NET nosotros tendremos los datos para resetear
-    los comandos de la nave y aprobar tu \"testeo\". Eso si, ojo con el tiempo, una
+    los comandos de la nave y aprobar tu \"testeo\". Eso si, ojo con el tiempo, \xA1una
     vez que se acabe habr\xE1s reprobado!"
   - "\xA1Mucha suerte \"New Blood\"! \xA1Tengo ansias de ver tus resultados!"
   textSpeed: 0.04
