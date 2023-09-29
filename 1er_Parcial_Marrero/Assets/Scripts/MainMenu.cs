@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
         Time.timeScale = 1f;
         PauseMenu.GameIsPaused = false;
     }
@@ -15,7 +15,7 @@ public class MainMenu : MonoBehaviour
     public void DemostrationScene()
 
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
         Time.timeScale = 1f;
         PauseMenu.GameIsPaused = false;
     }
@@ -24,6 +24,13 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("Exit Aplication");
         Application.Quit();
+
+    }
+
+
+    public void Credits()
+    {
+        SceneManager.LoadScene(0);
 
     }
 }

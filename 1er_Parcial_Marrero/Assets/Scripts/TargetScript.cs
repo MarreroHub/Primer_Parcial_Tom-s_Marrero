@@ -9,8 +9,7 @@ public class TargetScript : MonoBehaviour
     public GameManagment gameManager;
     private void OnTriggerEnter()
     {
-        SceneManager.LoadScene(3);
-       //ameManager.CompleteLevel();
+        SceneManager.LoadScene(4);
     }
 
 }

@@ -8,13 +8,13 @@ public class WinMenu : MonoBehaviour
 
     public void PlayAgain()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
         Time.timeScale = 1f;
     }
 
     public void ReturnMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void QuitGame()
