@@ -17368,7 +17368,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -325}
-  m_SizeDelta: {x: -400, y: -750}
+  m_SizeDelta: {x: -500, y: -750}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2046749201
 MonoBehaviour:
@@ -17427,13 +17427,14 @@ MonoBehaviour:
   - "De seguro lo sepas pero deja que te ponga al corriente, tu tarea es ingresar
     a la nave que se encuentra por all\xED apretando la tecla \"E\" cuando la tengas
     en frente."
-  - "No te preocupes por si has olvidado donde est\xE1n tus ojos, una Bola NET, esa
-    cosa rosa que vuela frente a tu cara, te dir\xE1 en qu\xE9 direcci\xF3n est\xE1s
+  - "No te preocupes por si te has olvidado donde est\xE1n tus ojos, una Bola NET,
+    esa cosa rosa que vuela frente a tu cara, te dir\xE1 en qu\xE9 direcci\xF3n est\xE1s
     yendo en todo momento."
   - "Y por si te has olvidado como mover tus piernas, recuerda que es tan simple
     como aprenderse los comandos de WSAD, ya sabes, delante, atr\xE1s, izquierda
     y derecha, en ese orden."
-  - "Ah!, y con las flechas de \"izq\" y \"der\". podr\xE1s rotar tu punto de vista."
+  - "Ah!, y con las flechas de \"izq\" y \"der\". podr\xE1s rotar tu punto de vista
+    (tampoco te vayas a poner a filosofar)."
   - "Tu misi\xF3n es simple, reprogramamos la nave con los comandos que le pondr\xEDa
     un chico universitario, si, todo un desaf\xEDo."
   - "Una vez que est\xE9s volando, habr\xE1 una Bola NET del mismo color que la tuya
